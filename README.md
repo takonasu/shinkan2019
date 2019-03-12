@@ -1,5 +1,10 @@
 # shinkan2019_vue
 
+初めてのVueプロジェクトだよ！一緒に勉強しよう！  
+npmで管理しているのでnpmが入っていて欲しい、  
+コマンドは以下の通り、基本的にnpm run dev で大丈夫よ  
+基本的にはVuetify使ってやる感じかなぁ
+
 > A Vue.js project
 
 ## Build Setup
