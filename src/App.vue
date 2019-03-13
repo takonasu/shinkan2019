@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-
+<v-app>
     <v-parallax height="300" dark src="/static/gakuhi.jpg">
       <v-layout align-center column justify-center>
         <h1 class="display-2 font-weight-thin mb-3">coins新歓2019</h1>
@@ -21,6 +21,7 @@
         </v-card-actions>
       </v-card>
     </v-footer>
+  </v-app>
   </div>
 </template>
 
