@@ -10,7 +10,7 @@
     <div style="margin-bottom:100px;">
     <router-view />
     </div>
-    <v-footer dark fixed height="auto">
+    <v-footer dark height="auto">
       <v-card class="flex" flat tile>
         <v-card-actions class="blue lighten-1 justify-center">
           &copy;
