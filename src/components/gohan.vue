@@ -191,4 +191,7 @@ export default {
   width: 100%;
   height: 100%;
 }
+h3 {
+  margin-bottom: 1rem;
+}
 </style>
