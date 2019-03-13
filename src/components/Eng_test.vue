@@ -9,7 +9,11 @@
             </div>
           </v-card-title>
           <v-card-text>
-            <div>説明するよ！</div>
+            <div>
+              新入生は全員TOEFL ITPというテストを受けます。これがプレイスメントテストです。
+              このテストの結果によって英語のクラス分けがされます。
+              真面目に受けましょう。
+            </div>
           </v-card-text>
 
           <v-container>
@@ -20,7 +24,7 @@
                 </div>
               </v-card-title>
               <v-card-text>
-                <h3>日時だよ</h3>
+                <h3>4月9日(火) 9:15~11:45</h3>
               </v-card-text>
             </v-card>
           </v-container>
@@ -29,28 +33,23 @@
             <v-card>
               <v-card-title primary-title>
                 <div>
-                  <h3 class="headline mb-0">参加費</h3>
-                </div>
-              </v-card-title>
-              <v-card-text>
-                <div>
-                  <h3>ここいらないかも</h3>
-                </div>
-              </v-card-text>
-            </v-card>
-          </v-container>
-
-          <v-container>
-            <v-card>
-              <v-card-title primary-title>
-                <div>
-                  <h3 class="headline mb-0">開催場所</h3>
+                  <h3 class="headline mb-0">会場</h3>
                 </div>
               </v-card-title>
 
               <v-card-text>
-                <div>教室名</div>
+                <h3>2B412</h3>
               </v-card-text>
+              <div class="ggmap">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d402.9098166480591!2d140.1011846!3d36.1110714!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60220c01198068f3%3A0xe0937f4e0d78477!2z562R5rOi5aSn5a2m56ys77yS44Ko44Oq44Ki5aSn6aOf5aCC!5e0!3m2!1sja!2sjp!4v1552468691033"
+                  width="600"
+                  height="450"
+                  frameborder="0"
+                  style="border:0"
+                  allowfullscreen
+                ></iframe>
+              </div>
             </v-card>
           </v-container>
         </v-card>
