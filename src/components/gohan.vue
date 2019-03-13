@@ -20,24 +20,6 @@
             <v-card>
               <v-card-title primary-title>
                 <div>
-                  <h3 class="headline mb-0">参加費</h3>
-                </div>
-              </v-card-title>
-              <v-card-text>
-                <div>
-                  <h3>1500円</h3>
-                  <p>
-                    <del>(トライアルのうどん75個買えるぞ..!!)</del>
-                  </p>
-                </div>
-              </v-card-text>
-            </v-card>
-          </v-container>
-
-          <v-container>
-            <v-card>
-              <v-card-title primary-title>
-                <div>
                   <h3 class="headline mb-0">日時</h3>
                 </div>
               </v-card-title>
@@ -53,13 +35,31 @@
             <v-card>
               <v-card-title primary-title>
                 <div>
+                  <h3 class="headline mb-0">参加費</h3>
+                </div>
+              </v-card-title>
+              <v-card-text>
+                <div>
+                  <h3>1500円</h3>
+                  <div>
+                    <del>(トライアルのうどん75個買えるぞ..!!)</del>
+                  </div>
+                </div>
+              </v-card-text>
+            </v-card>
+          </v-container>
+
+          <v-container>
+            <v-card>
+              <v-card-title primary-title>
+                <div>
                   <h3 class="headline mb-0">開催場所</h3>
                 </div>
               </v-card-title>
 
               <v-card-text>
-                <p>百香亭 筑波大学店</p>
-                <p>〒305-0005 茨城県つくば市天久保3丁目15-1</p>
+                <div>百香亭 筑波大学店</div>
+                <div>〒305-0005 茨城県つくば市天久保3丁目15-1</div>
               </v-card-text>
 
               <div class="ggmap">
@@ -74,9 +74,7 @@
               </div>
 
               <v-card-text>こちらは開催場所になります。
-                <br>
-
-                集合場所は以下を参照してください。
+                <br>集合場所は以下を参照してください。
                 <!-- 集合場所より近い場合は直接来てもらって構いません。 -->
               </v-card-text>
             </v-card>
@@ -90,12 +88,13 @@
                 </div>
               </v-card-title>
               <v-card-text>
-                <p>各自集まりやすい場所に来てください。各集合場所には法被を着た新歓委員が待機しています。</p>
-                <p>集合時間はLINE@にてお知らせいたします。</p>
+                <div>各自集まりやすい場所に来てください。各集合場所には法被を着た新歓委員が待機しています。</div>
+                <div>集合時間はLINE@にてお知らせいたします。</div>
               </v-card-text>
               <v-card-text>
-                <p>集合場所① 平砂共用棟前</p>
-                <p>〒305-0005 茨城県つくば市天久保２丁目１</p>
+                <h3>集合場所①</h3>
+                <div>平砂共用棟前</div>
+                <div>〒305-0005 茨城県つくば市天久保２丁目１</div>
               </v-card-text>
               <div class="ggmap">
                 <iframe
@@ -109,8 +108,9 @@
               </div>
 
               <v-card-text>
-                <p>集合場所② ローソン つくば天久保3丁目店</p>
-                <p>〒305-0005 茨城県つくば市天久保３丁目１６−８</p>
+                <h3>集合場所②</h3>
+                <div>ローソン つくば天久保3丁目店</div>
+                <div>〒305-0005 茨城県つくば市天久保３丁目１６−８</div>
               </v-card-text>
 
               <div class="ggmap">
@@ -125,8 +125,9 @@
               </div>
 
               <v-card-text>
-                <p>集合場所③ セブンイレブン 春日4丁目店</p>
-                <p>〒305-0821 茨城県つくば市春日４丁目１７−１</p>
+                <h3>集合場所③</h3>
+                <div>セブンイレブン 春日4丁目店</div>
+                <div>〒305-0821 茨城県つくば市春日４丁目１７−１</div>
               </v-card-text>
               <div class="ggmap">
                 <iframe
@@ -140,8 +141,9 @@
               </div>
 
               <v-card-text>
-                <p>集合場所④ つくば駅改札前</p>
-                <p>〒305-0031 茨城県つくば市吾妻２丁目６−１２８</p>
+                <h3>集合場所④</h3>
+                <div>つくば駅改札前</div>
+                <div>〒305-0031 茨城県つくば市吾妻２丁目６−１２８</div>
               </v-card-text>
               <div class="ggmap">
                 <iframe
