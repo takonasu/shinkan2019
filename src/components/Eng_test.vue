@@ -12,7 +12,7 @@
             <div>
               新入生は全員TOEFL ITPというテストを受けます。これがプレイスメントテストです。
               このテストの結果によって英語のクラス分けがされます。
-              真面目に受けましょう。
+              真面目に受けましょう。詳しくは配られる資料を確認してください。
             </div>
           </v-card-text>
 
@@ -25,6 +25,19 @@
               </v-card-title>
               <v-card-text>
                 <h3>4月9日(火) 9:15~11:45</h3>
+              </v-card-text>
+            </v-card>
+          </v-container>
+
+          <v-container>
+            <v-card>
+              <v-card-title primary-title>
+                <div>
+                  <h3 class="headline mb-0">持ち物</h3>
+                </div>
+              </v-card-title>
+              <v-card-text>
+                <h3>学生証、筆記用具(鉛筆(マークシート記入用)、消しゴム)</h3>
               </v-card-text>
             </v-card>
           </v-container>
