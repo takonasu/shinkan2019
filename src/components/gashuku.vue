@@ -20,30 +20,12 @@
                   </div>
                 </v-card-title>
                 <v-card-text>
-                  <v-data-table :headers="headers" :items="desserts" class="elevation-1">
+                  <v-data-table :headers="headers" :items="desserts">
                     <template v-slot:items="props">
                       <td>{{ props.item.name }}</td>
                       <td class="text-xs-right">{{ props.item.details }}</td>
-                      <td class="text-xs-right">{{ props.item.fat }}</td>
-                      <td class="text-xs-right">{{ props.item.carbs }}</td>
-                      <td class="text-xs-right">{{ props.item.protein }}</td>
-                      <td class="text-xs-right">{{ props.item.iron }}</td>
                     </template>
                   </v-data-table>
-                  <p>
-                    /9(Tue) 15:30~ バスに乗って移動
-                    16:00 到着 入所式
-                    ~17:30 履修登録の説明
-                    17:30~ BBQ
-                    20:00~21:00 入浴
-                    22:00 消灯
-                    4/10(Wed)
-                    7:30~ 朝食
-                    8:30~10:00 レクリエーション
-                    10:30~11:30 クラ代決め
-                    11:30 退所
-                    12:00 大学到着
-                  </p>
                 </v-card-text>
               </v-card>
             </v-container>
@@ -123,32 +105,36 @@ export default {
           details: "履修登録の説明"
         },
         {
-          name: "Cupcake",
-          details: "e"
+          name: "17:30~",
+          details: "BBQ"
         },
         {
-          name: "Gingerbread",
-          details: "o"
+          name: "20:00~21:00",
+          details: "入浴"
         },
         {
-          name: "Jelly bean",
-          details: "ka"
+          name: "22:00",
+          details: "消灯"
         },
         {
-          name: "Lollipop",
-          details: "ki"
+          name: "4/10(Wed)7:30~",
+          details: "朝食"
         },
         {
-          name: "Honeycomb",
-          details: "ku"
+          name: "8:30~10:00",
+          details: "レクリエーション"
         },
         {
-          name: "Donut",
-          details: "ke"
+          name: "10:30~11:30",
+          details: "クラ代決め等"
         },
         {
-          name: "KitKat",
-          details: "ko"
+          name: "11:30",
+          details: "退所"
+        },
+        {
+          name: "12:00",
+          details: "大学到着"
         }
       ]
     };
