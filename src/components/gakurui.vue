@@ -84,6 +84,7 @@
               <v-card-text>
                 <div>集合場所には法被を着た新歓委員が待機しています。</div>
                 <div>集合時間は17時です。</div>
+                <div>※直接グローバルビレッジに来ていただいても構いません。</div>
               </v-card-text>
 
               <v-card-text>
@@ -120,4 +121,20 @@ export default {
 </script>
 
 <style>
+.ggmap {
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.ggmap iframe,
+.ggmap object,
+.ggmap embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 </style>
