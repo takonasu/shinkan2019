@@ -5,17 +5,11 @@
         <v-card>
           <v-card-title primary-title>
             <div>
-              <h3 class="headline mb-0">学類懇親会</h3>
+              <h3 class="headline mb-0">学群懇親会</h3>
             </div>
           </v-card-title>
           <v-card-text>
-            <div>
-              学類の新歓行事を締めくくる会です。
-              レクリエーションで学類の仲間との仲を深めましょう！
-              先輩と話すことができる貴重な機会です。
-              <!-- 内容が薄いからどうにかしよう -->
-              ぜひ奮ってご参加を！
-            </div>
+            <div>ここがコンテンツ</div>
           </v-card-text>
 
           <v-container>
@@ -26,7 +20,7 @@
                 </div>
               </v-card-title>
               <v-card-text>
-                <h3>4月13日(土) 17時30分開始</h3>
+                <h3>4月20日(土) 17時00分開始</h3>
               </v-card-text>
             </v-card>
           </v-container>
@@ -86,7 +80,7 @@
               </v-card-title>
               <v-card-text>
                 <div>集合場所には法被を着た新歓委員が待機しています。</div>
-                <div class="font-weight-bold">集合時間は17時です。</div>
+                <div class="font-weight-bold">集合時間は16時30分です。</div>
                 <div>※直接グローバルビレッジに来ていただいても構いません。</div>
               </v-card-text>
 
