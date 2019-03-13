@@ -20,23 +20,16 @@
                   </div>
                 </v-card-title>
                 <v-card-text>
-                  <v-app>
-                    <v-layout>
-                      <v-flex>
-                        <v-sheet height="400">
-                          <v-calendar color="primary" type="day">
-                            <template v-slot:dayHeader="{present}">
-                              <template v-if="present" class="text-xs-center"></template>
-                            </template>
-
-                            <template v-slot:interval="{ hour }">
-                              <div class="text-xs-center">{{ hour }} o'clock</div>
-                            </template>
-                          </v-calendar>
-                        </v-sheet>
-                      </v-flex>
-                    </v-layout>
-                  </v-app>
+                  <v-data-table :headers="headers" :items="desserts" class="elevation-1">
+                    <template v-slot:items="props">
+                      <td>{{ props.item.name }}</td>
+                      <td class="text-xs-right">{{ props.item.details }}</td>
+                      <td class="text-xs-right">{{ props.item.fat }}</td>
+                      <td class="text-xs-right">{{ props.item.carbs }}</td>
+                      <td class="text-xs-right">{{ props.item.protein }}</td>
+                      <td class="text-xs-right">{{ props.item.iron }}</td>
+                    </template>
+                  </v-data-table>
                   <p>
                     /9(Tue) 15:30~ バスに乗って移動
                     16:00 到着 入所式
@@ -105,21 +98,61 @@
 
 <script>
 export default {
-  data: () => ({
-    tracked: {
-      "2019-01-09": [23, 45, 10],
-      "2019-01-08": [10],
-      "2019-01-07": [0, 78, 5],
-      "2019-01-06": [0, 0, 50],
-      "2019-01-05": [0, 10, 23],
-      "2019-01-04": [2, 90],
-      "2019-01-03": [10, 32],
-      "2019-01-02": [80, 10, 10],
-      "2019-01-01": [20, 25, 10]
-    },
-    colors: ["#1867c0", "#fb8c00", "#000000"],
-    category: ["Development", "Meetings", "Slacking"]
-  }),
+  data() {
+    return {
+      headers: [
+        {
+          text: "時間",
+          align: "left",
+          sortable: false,
+          value: "name"
+        },
+        { text: "詳細", text: "details" }
+      ],
+      desserts: [
+        {
+          name: "4/9(Tue)15:30~",
+          details: "大学からバスに乗って移動"
+        },
+        {
+          name: "16:00~",
+          details: "到着　入所式"
+        },
+        {
+          name: "~17:30",
+          details: "履修登録の説明"
+        },
+        {
+          name: "Cupcake",
+          details: "e"
+        },
+        {
+          name: "Gingerbread",
+          details: "o"
+        },
+        {
+          name: "Jelly bean",
+          details: "ka"
+        },
+        {
+          name: "Lollipop",
+          details: "ki"
+        },
+        {
+          name: "Honeycomb",
+          details: "ku"
+        },
+        {
+          name: "Donut",
+          details: "ke"
+        },
+        {
+          name: "KitKat",
+          details: "ko"
+        }
+      ]
+    };
+  },
   computed: {},
   methods: {}
 };
