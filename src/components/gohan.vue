@@ -56,6 +56,12 @@
                   <h3 class="headline mb-0">開催場所</h3>
                 </div>
               </v-card-title>
+
+              <v-card-text>
+                <p>百香亭 筑波大学店</p>
+                <p>〒305-0005 茨城県つくば市天久保3丁目15-1</p>
+              </v-card-text>
+
               <div class="ggmap">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6446.995631448822!2d140.0999968855798!3d36.105727895066835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x837cda30f3673a96!2z55m-6aaZ5LqtIOetkeazouWkp-WtpuW6lw!5e0!3m2!1sja!2sjp!4v1552453315889"
@@ -66,12 +72,10 @@
                   allowfullscreen
                 ></iframe>
               </div>
-              <v-card-text>
-                <p>百香亭 筑波大学店</p>
-                <p>〒305-0005 茨城県つくば市天久保3丁目15-1</p>
-                <p>こちらは開催場所になります。集合場所は以下を参照してください。
-                  <!-- 集合場所より近い場合は直接来てもらって構いません。 -->
-                </p>
+
+              <v-card-text>こちらは開催場所になります。
+                <br>集合場所は以下を参照してください。
+                <!-- 集合場所より近い場合は直接来てもらって構いません。 -->
               </v-card-text>
             </v-card>
           </v-container>
@@ -86,7 +90,6 @@
               <v-card-text>
                 <p>各自集まりやすい場所に来てください。各集合場所には法被を着た新歓委員が待機しています。</p>
               </v-card-text>
-
               <v-card-text>
                 <p>集合場所① 平砂共用棟前</p>
                 <p>〒305-0005 茨城県つくば市天久保２丁目１</p>
@@ -134,7 +137,7 @@
               </div>
 
               <v-card-text>
-                <p>つくば駅改札前</p>
+                <p>集合場所④ つくば駅改札前</p>
                 <p>〒305-0031 茨城県つくば市吾妻２丁目６−１２８</p>
               </v-card-text>
               <div class="ggmap">
