@@ -1,9 +1,17 @@
 <template>
   <div>
+    <div>
+      <v-alert v-model="alert" type="info" class="mt-0">
+        入学式は4月8日です。
+      </v-alert>
+
+      <div class="text-xs-center">
+      </div>
+    </div>
     <v-layout row wrap>
       <v-flex xs12 md6 v-for="n in card_lists" v-bind:key="n.id">
         <v-container>
-          <v-card>
+          <v-card hover>
             <v-img src="https://cdn.vuetifyjs.com/images/cards/desert.jpg" aspect-ratio="2.75"></v-img>
 
             <v-card-title primary-title>
@@ -82,7 +90,7 @@
             text: "宿舎に入る人はみてね！",
             link: "shukusya"
           },
-                    {
+          {
             id: 9,
             title: "理趣相談会",
             text: "履修って何？先輩と一緒に登録しよう！",
@@ -95,7 +103,7 @@
             link: "other"
           },
         ],
-        card_text: 'Lorem ipsum dolor sit amet, brute iriure accusata ne mea. Eos suavitate referrentur ad, te duo agam libris qualisque, utroque quaestio accommodare no qui. Et percipit laboramus usu, no invidunt verterem nominati mel. Dolorem ancillae an mei, ut putant invenire splendide mel, ea nec propriae adipisci. Ignota salutandi accusamus in sed, et per malis fuisset, qui id ludus appareat.'
+        alert: true
       }
     }
   }
