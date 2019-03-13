@@ -39,6 +39,10 @@
 
               <v-card-text>
                 <h3>2B412</h3>
+                <div>
+                  第二エリアB棟四階の教室です。
+                  下のgooglemapsでは第二エリア大食堂を指していますが、同じ建物なのでここに来てくれれば大丈夫です！
+                </div>
               </v-card-text>
               <div class="ggmap">
                 <iframe
@@ -75,6 +79,7 @@ export default {
   padding-bottom: 56.25%;
   overflow: hidden;
   margin-bottom: 1.5rem;
+  margin-top: 1rem;
 }
 
 .ggmap iframe,
@@ -85,5 +90,8 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
+}
+h3 {
+  margin-bottom: 1rem;
 }
 </style>
