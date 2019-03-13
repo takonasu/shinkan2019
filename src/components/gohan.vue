@@ -38,7 +38,7 @@
         <v-card>
           <v-card-title primary-title>
             <div>
-              <h3 class="headline mb-0">場所</h3>
+              <h3 class="headline mb-0">開催場所</h3>
             </div>
           </v-card-title>
           <div class="ggmap">
@@ -54,7 +54,86 @@
           <v-card-text>
             <p>百香亭 筑波大学店</p>
             <p>〒305-0005 茨城県つくば市天久保3丁目15-1</p>
-            <p>詳細な集合場所はLINE@でお知らせいたします</p>
+            <p>こちらは開催場所になります。集合場所は以下を参照してください。
+              <!-- 集合場所より近い場合は直接来てもらって構いません。 -->
+            </p>
+          </v-card-text>
+        </v-card>
+      </v-container>
+
+      <v-container>
+        <v-card>
+          <v-card-title primary-title>
+            <div>
+              <h3 class="headline mb-0">集合場所</h3>
+            </div>
+          </v-card-title>
+          <v-card-text>
+            <p>num.1</p>
+          </v-card-text>
+          <div class="ggmap">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.5202853358473!2d140.10460295120373!3d36.10518031411318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60220c0f39ce9e65%3A0x70787aeb4d767119!2z44Ot44O844K944OzIOOBpOOBj-OBsOWkqeS5heS_neS4ieS4geebruW6lw!5e0!3m2!1sja!2sjp!4v1552454946125"
+              width="600"
+              height="450"
+              frameborder="0"
+              style="border:0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <v-card-text>
+            <p>ローソン つくば天久保3丁目店</p>
+          </v-card-text>
+
+          <v-card-text>
+            <p>num.2</p>
+          </v-card-text>
+          <div class="ggmap">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.7653395692523!2d140.09673535120373!3d36.09920791444404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60220bf67a5fbb1d%3A0x4537738ff0ccc2f1!2z44K744OW44OzLeOCpOODrOODluODs-OBpOOBj-OBsOaYpeaXpe-8lOS4geebruW6lw!5e0!3m2!1sja!2sjp!4v1552455220464"
+              width="600"
+              height="450"
+              frameborder="0"
+              style="border:0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <v-card-text>
+            <p>セブンイレブン 春日4丁目店</p>
+          </v-card-text>
+
+          <v-card-text>
+            <p>num.3</p>
+          </v-card-text>
+          <div class="ggmap">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d583.217324098017!2d140.1032496751603!3d36.09783014487616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x61e61613464b8588!2z562R5rOi5aSn5a2mIOWtpueUn-Wuv-iIjuODu-emj-WIqeWOmueUn-aWveioreetieW5s-eggueUn-a0u-OCu-ODs-OCv-ODvOeuoeeQhuS6i-WLmeWupA!5e0!3m2!1sja!2sjp!4v1552455308287"
+              width="600"
+              height="450"
+              frameborder="0"
+              style="border:0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <v-card-text>
+            <p>平砂学生宿舎 共用棟前</p>
+          </v-card-text>
+
+          <v-card-text>
+            <p>num.4</p>
+          </v-card-text>
+          <div class="ggmap">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2227.953477858671!2d140.11041961759028!3d36.08255944198964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3487ddbc353229bd!2z44Gk44GP44Gw6aeF!5e0!3m2!1sja!2sjp!4v1552455413535"
+              width="600"
+              height="450"
+              frameborder="0"
+              style="border:0"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <v-card-text>
+            <p>つくば駅改札前</p>
           </v-card-text>
         </v-card>
       </v-container>
