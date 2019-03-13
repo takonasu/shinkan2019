@@ -70,4 +70,20 @@ export default {
 </script>
 
 <style>
+.ggmap {
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+}
+
+.ggmap iframe,
+.ggmap object,
+.ggmap embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 </style>
