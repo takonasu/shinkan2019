@@ -25,21 +25,6 @@
               </v-card-text>
             </v-card>
           </v-container>
-
-          <v-container>
-            <v-card>
-              <v-card-title primary-title>
-                <div>
-                  <h3 class="headline mb-0">会場</h3>
-                </div>
-              </v-card-title>
-
-              <v-card-text>
-                <h3>全学計算機室</h3>
-                <div>詳しい場所は確定し次第掲載します。</div>
-              </v-card-text>
-            </v-card>
-          </v-container>
         </v-card>
       </v-container>
     </v-flex>
