@@ -49,7 +49,7 @@ export default new Router({
       component: enter
     },
     {
-      path: '/gakugun',
+      path: '/faculty',
       name: 'gakugun',
       component: gakugun
     },
@@ -59,7 +59,7 @@ export default new Router({
       component: shukusya
     },
     {
-      path: '/gakurui',
+      path: '/department',
       name: 'gakurui',
       component: gakurui
     },
@@ -74,7 +74,7 @@ export default new Router({
       component: other
     }
   ],
-  scrollBehavior (to, from, savedPosition) {
+  scrollBehavior(to, from, savedPosition) {
     return { x: 0, y: 0 }
   }
 })
