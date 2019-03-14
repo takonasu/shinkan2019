@@ -5,15 +5,11 @@
         <v-card>
           <v-card-title primary-title>
             <div>
-              <h3 class="headline mb-0">プレイスメントテストってなんや！！</h3>
+              <h3 class="headline mb-0">履修相談会に行こう！</h3>
             </div>
           </v-card-title>
           <v-card-text>
-            <div>
-              新入生は全員TOEFL ITPというテストを受けます。これがプレイスメントテストです。
-              このテストの結果によって英語のクラス分けがされます。
-              真面目に受けましょう。詳しくは配られる資料を確認してください。
-            </div>
+            <div>先輩と一緒に履修登録をしましょう！</div>
           </v-card-text>
 
           <v-container>
@@ -24,7 +20,8 @@
                 </div>
               </v-card-title>
               <v-card-text>
-                <h3>4月9日(火) 9:15~11:45</h3>
+                <h3>4月13日(土) 10:00~16:00</h3>
+                <h3>4月14日(日) 10:00~16:00</h3>
               </v-card-text>
             </v-card>
           </v-container>
