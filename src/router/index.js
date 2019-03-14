@@ -29,7 +29,7 @@ export default new Router({
       component: gashuku
     },
     {
-      path: '/gohan',
+      path: '/meal',
       name: 'gohan',
       component: gohan
     },
@@ -39,32 +39,32 @@ export default new Router({
       component: seigo
     },
     {
-      path: '/Eng_test',
+      path: '/test',
       name: 'Eng_test',
       component: Eng_test
     },
     {
-      path: '/enter',
+      path: '/entrance',
       name: 'enter',
       component: enter
     },
     {
-      path: '/gakugun',
+      path: '/faculty',
       name: 'gakugun',
       component: gakugun
     },
     {
-      path: '/shukusya',
+      path: '/lodging',
       name: 'shukusya',
       component: shukusya
     },
     {
-      path: '/gakurui',
+      path: '/department',
       name: 'gakurui',
       component: gakurui
     },
     {
-      path: '/risyu',
+      path: '/registration',
       name: 'risyu',
       component: risyu
     },
@@ -74,7 +74,7 @@ export default new Router({
       component: other
     }
   ],
-  scrollBehavior (to, from, savedPosition) {
+  scrollBehavior(to, from, savedPosition) {
     return { x: 0, y: 0 }
   }
 })
