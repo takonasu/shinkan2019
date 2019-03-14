@@ -39,7 +39,7 @@ export default new Router({
       component: seigo
     },
     {
-      path: '/Eng_test',
+      path: '/test',
       name: 'Eng_test',
       component: Eng_test
     },
