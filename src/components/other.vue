@@ -2,6 +2,14 @@
   <div>
     <v-flex>
       <v-container>
+        <h1>製作者</h1>
+        <div>
+          このWebサイトは私達で制作しました。
+          何かわからないことがあればTwitterのDM等で連絡ください。
+        </div>
+      </v-container>
+
+      <v-container>
         <v-card>
           <v-img
             src="https://pbs.twimg.com/profile_images/1041278929854558210/VMcuApjK_400x400.jpg"
@@ -10,7 +18,19 @@
 
           <v-card-title primary-title>
             <div>
-              <h3 class="headline mb-0">oshun(@uk_osy)</h3>
+              <h1>oshun(@uk_osy)</h1>
+
+              <h4 class="headline mb-2">新歓委員長です！</h4>
+              <v-btn
+                class="mx-2"
+                color="info"
+                icon
+                large
+                target="_blank"
+                href="https://twitter.com/uk_osy"
+              >
+                <v-icon>fab fa-twitter</v-icon>
+              </v-btn>
             </div>
           </v-card-title>
         </v-card>
@@ -25,7 +45,18 @@
 
           <v-card-title primary-title>
             <div>
-              <h3 class="headline mb-0">takonasu(@ITF_tako)</h3>
+              <h1>takonasu(@ITF_tako)</h1>
+              <h4 class="headline mb-2">たこなすだよん</h4>
+              <v-btn
+                class="mx-2"
+                color="info"
+                icon
+                large
+                target="_blank"
+                href="https://twitter.com/ITF_tako"
+              >
+                <v-icon>fab fa-twitter</v-icon>
+              </v-btn>
             </div>
           </v-card-title>
         </v-card>
@@ -37,7 +68,18 @@
 
           <v-card-title primary-title>
             <div>
-              <h3 class="headline mb-0">szk18(@ITF_szk)</h3>
+              <h1>szk18(@ITF_szk)</h1>
+              <h4 class="headline mb-2">ねこはかわいい</h4>
+              <v-btn
+                class="mx-2"
+                color="info"
+                icon
+                large
+                target="_blank"
+                href="https://twitter.com/ITF_szk"
+              >
+                <v-icon>fab fa-twitter</v-icon>
+              </v-btn>
             </div>
           </v-card-title>
         </v-card>
