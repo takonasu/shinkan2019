@@ -37,7 +37,7 @@
                 </div>
               </v-card-title>
               <v-card-text>
-                <h3>履修要覧、学生証、統一認証のパスワードが書いてある紙</h3>
+                <h3>履修要覧、開設科目一覧、学生証、統一認証のパスワードが書いてある紙</h3>
               </v-card-text>
             </v-card>
           </v-container>
