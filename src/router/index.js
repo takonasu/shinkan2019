@@ -73,5 +73,8 @@ export default new Router({
       name: 'other',
       component: other
     }
-  ]
+  ],
+  scrollBehavior (to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  }
 })

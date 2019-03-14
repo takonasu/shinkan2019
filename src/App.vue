@@ -3,12 +3,12 @@
     <v-app>
       <v-toolbar color="blue lighten-1" dark fixed app clipped-right>
         <v-toolbar-side-icon @click.stop="drawer = !drawer"></v-toolbar-side-icon>
-        <v-toolbar-title>coins新歓2019WEBパンフレット</v-toolbar-title>
+        <v-toolbar-title>coins新歓2019WEB</v-toolbar-title>
         <v-spacer></v-spacer>
       </v-toolbar>
       <v-navigation-drawer v-model="drawer" fixed app>
         <v-list dense>
-          <v-list-tile v-for="item in page_lists" :key="item.title" @click="">
+          <v-list-tile v-for="item in page_lists" :key="item.title" @click="" class="mt-2">
             <v-list-tile-action>
               <v-icon>{{ item.icon }}</v-icon>
             </v-list-tile-action>
@@ -18,6 +18,7 @@
             </v-list-tile-content>
           </v-list-tile>
         </v-list>
+
       </v-navigation-drawer>
 
       <v-parallax height="300" dark src="/static/gakuhi.jpg" class="mt-4 pt-4">
@@ -50,71 +51,70 @@
   export default {
     name: 'App',
     data: () => ({
-        page_lists: [
-          {
-            id: 0,
-            title: "トップページ",
-            link: "top",
-            icon: "dashboard"
-          },{
-            id: 1,
-            title: "宿舎入居",
-            text: "宿舎に入る人はみてね！",
-            link: "shukusya",
-            icon: "fas fa-home"
-          },
-          {
-            id: 2,
-            title: "入学前食事会",
-            text: "百香亭という中華飯店に行きます",
-            link: "gohan",
-            icon: "fas fa-utensils"
-          },
-          {
-            id: 3,
-            title: "入学式",
-            text: "お待ちかねの入学式です！",
-            link: "enter",
-            icon: "fas fa-user-graduate"
-          },
-          {
-            id: 4,
-            title: "プレイスメントテスト",
-            text: "は？なにこれ？",
-            link: "Eng_test",
-            icon: "fas fa-pencil-alt"
-          },
-          {
-            id: 5,
-            title: "新歓合宿",
-            text: "合宿に行きます",
-            link: "camp",
-            icon: "fas fa-bed"
-          },
-          {
-            id: 6,
-            title: "履修相談会",
-            text: "履修って何？先輩と一緒に登録しよう！",
-            link: "risyu",
-            icon: "fas fa-desktop"
-          },
-          {
-            id: 7,
-            title: "情報科学類懇親会",
-            text: "情報科学類で懇親会するよ！",
-            link: "gakurui",
-            icon: "fas fa-utensils"
-          },
-          {
-            id: 8,
-            title: "情報学群懇親会",
-            text: "情報学群で懇親会するよ！",
-            link: "gakugun",
-            icon: "fas fa-utensils"
-          },
+      page_lists: [{
+          id: 0,
+          title: "トップページ",
+          link: "top",
+          icon: "dashboard"
+        }, {
+          id: 1,
+          title: "宿舎入居",
+          text: "宿舎に入る人はみてね！",
+          link: "shukusya",
+          icon: "fas fa-home"
+        },
+        {
+          id: 2,
+          title: "入学前食事会",
+          text: "百香亭という中華飯店に行きます",
+          link: "gohan",
+          icon: "fas fa-utensils"
+        },
+        {
+          id: 3,
+          title: "入学式",
+          text: "お待ちかねの入学式です！",
+          link: "enter",
+          icon: "fas fa-user-graduate"
+        },
+        {
+          id: 4,
+          title: "プレイスメントテスト",
+          text: "は？なにこれ？",
+          link: "Eng_test",
+          icon: "fas fa-pencil-alt"
+        },
+        {
+          id: 5,
+          title: "新歓合宿",
+          text: "合宿に行きます",
+          link: "camp",
+          icon: "fas fa-bed"
+        },
+        {
+          id: 6,
+          title: "履修相談会",
+          text: "履修って何？先輩と一緒に登録しよう！",
+          link: "risyu",
+          icon: "fas fa-desktop"
+        },
+        {
+          id: 7,
+          title: "情報科学類懇親会",
+          text: "情報科学類で懇親会するよ！",
+          link: "gakurui",
+          icon: "fas fa-utensils"
+        },
+        {
+          id: 8,
+          title: "情報学群懇親会",
+          text: "情報学群で懇親会するよ！",
+          link: "gakugun",
+          icon: "fas fa-utensils"
+        },
 
 
-        ],
+      ],
       drawer: false,
       drawerRight: null,
       right: false,
