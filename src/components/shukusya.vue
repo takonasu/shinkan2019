@@ -30,19 +30,6 @@
             <v-card>
               <v-card-title primary-title>
                 <div>
-                  <h3 class="headline mb-0">持ち物</h3>
-                </div>
-              </v-card-title>
-              <v-card-text>
-                <h3>履修要覧、開設科目一覧、学生証、統一認証のパスワードが書いてある紙</h3>
-              </v-card-text>
-            </v-card>
-          </v-container>
-
-          <v-container>
-            <v-card>
-              <v-card-title primary-title>
-                <div>
                   <h3 class="headline mb-0">会場</h3>
                 </div>
               </v-card-title>
