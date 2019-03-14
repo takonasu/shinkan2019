@@ -73,6 +73,7 @@
               <v-btn
                 class="mx-2"
                 color="info"
+                right
                 icon
                 large
                 target="_blank"
