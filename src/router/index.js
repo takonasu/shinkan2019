@@ -44,7 +44,7 @@ export default new Router({
       component: Eng_test
     },
     {
-      path: '/enter',
+      path: '/entrance',
       name: 'enter',
       component: enter
     },
