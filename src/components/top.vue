@@ -34,14 +34,14 @@
             id: 1,
             title: "宿舎入居",
             text: "宿舎に入る人はみてね！",
-            link: "shukusya",
+            link: "lodging",
             img: "hyakkou.jpg"
           },
           {
             id: 2,
             title: "入学前食事会",
             text: "百香亭という中華飯店に行きます",
-            link: "gohan",
+            link: "meal",
             img: "hyakkou.jpg"
 
           },
@@ -49,7 +49,7 @@
             id: 3,
             title: "入学式",
             text: "お待ちかねの入学式です！",
-            link: "enter",
+            link: "entrance",
             img: "kaikan.jpg"
 
           },
@@ -57,8 +57,8 @@
             id: 4,
             title: "プレイスメントテスト",
             text: "は？なにこれ？",
-            link: "Eng_test",
-            img: "hyakkou.jpg"
+            link: "test",
+            img: "2gaku.jpg"
 
           },
           {
@@ -66,14 +66,14 @@
             title: "新歓合宿",
             text: "合宿に行きます",
             link: "camp",
-            img: "hyakkou.jpg"
+            img: "2gaku.jpg"
 
           },
           {
             id: 6,
             title: "履修相談会",
             text: "履修って何？先輩と一緒に登録しよう！",
-            link: "risyu",
+            link: "registration",
             img: "lounge.jpg"
 
           },
@@ -81,7 +81,7 @@
             id: 7,
             title: "情報科学類懇親会",
             text: "情報科学類で懇親会するよ！",
-            link: "gakurui",
+            link: "department",
             img: "hyakkou.jpg"
 
           },
@@ -89,7 +89,7 @@
             id: 8,
             title: "情報学群懇親会",
             text: "情報学群で懇親会するよ！",
-            link: "gakugun",
+            link: "faculty",
             img: "hyakkou.jpg"
 
           },
