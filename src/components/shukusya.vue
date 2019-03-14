@@ -5,14 +5,12 @@
         <v-card>
           <v-card-title primary-title>
             <div>
-              <h3 class="headline mb-0">履修相談会に行こう！</h3>
+              <h3 class="headline mb-0">宿舎入居...!!</h3>
             </div>
           </v-card-title>
           <v-card-text>
-            <div>
-              初めての履修登録は戸惑うことが多いと思います。履修相談会に来て、先輩に教えてもらいながら履修登録をしましょう。
-              おすすめの講義を先輩から教えてもらうこともできますよ！
-            </div>
+            <h4>※これは学生宿舎に入居する人のための情報です</h4>
+            <div>学生宿舎に入居する新入生のお手伝いをします！</div>
           </v-card-text>
 
           <v-container>
@@ -23,8 +21,7 @@
                 </div>
               </v-card-title>
               <v-card-text>
-                <h3>4月13日(土) 10:00~16:00</h3>
-                <h3>4月14日(日) 10:00~16:00</h3>
+                <h3>4月4日(木) 9:00~15:00</h3>
               </v-card-text>
             </v-card>
           </v-container>
