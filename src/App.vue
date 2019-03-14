@@ -113,6 +113,12 @@
           link: "faculty",
           icon: "fas fa-user-friends"
         },
+        {
+          id: 9,
+          title: "ページ製作者",
+          link: "author",
+          icon: "fas fa-feather"
+        },
       ],
       drawer: false,
       drawerRight: null,
