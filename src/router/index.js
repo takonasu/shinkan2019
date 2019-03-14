@@ -69,7 +69,7 @@ export default new Router({
       component: risyu
     },
     {
-      path: '/other',
+      path: '/author',
       name: 'other',
       component: other
     }
