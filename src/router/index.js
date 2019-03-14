@@ -54,7 +54,7 @@ export default new Router({
       component: gakugun
     },
     {
-      path: '/shukusya',
+      path: '/lodging',
       name: 'shukusya',
       component: shukusya
     },
