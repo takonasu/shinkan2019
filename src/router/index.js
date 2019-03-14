@@ -29,7 +29,7 @@ export default new Router({
       component: gashuku
     },
     {
-      path: '/gohan',
+      path: '/meal',
       name: 'gohan',
       component: gohan
     },
