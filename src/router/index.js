@@ -64,7 +64,7 @@ export default new Router({
       component: gakurui
     },
     {
-      path: '/risyu',
+      path: '/registration',
       name: 'risyu',
       component: risyu
     },
