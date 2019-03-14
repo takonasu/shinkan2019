@@ -9,7 +9,10 @@
             </div>
           </v-card-title>
           <v-card-text>
-            <div>先輩と一緒に履修登録をしましょう！</div>
+            <div>
+              初めての履修登録は戸惑うことが多いと思います。履修相談会に来て、先輩に教えてもらいながら履修登録をしましょう。
+              おすすめの講義を先輩から教えてもらうこともできますよ！
+            </div>
           </v-card-text>
 
           <v-container>
@@ -48,22 +51,9 @@
               </v-card-title>
 
               <v-card-text>
-                <h3>2B412</h3>
-                <div>
-                  第二エリアB棟四階の教室です。
-                  下のgooglemapsでは第二エリア大食堂を指していますが、同じ建物なのでここに来てくれれば大丈夫です！
-                </div>
+                <h3>全学計算機室</h3>
+                <div>詳しい場所は確定し次第掲載します。</div>
               </v-card-text>
-              <div class="ggmap">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d402.9098166480591!2d140.1011846!3d36.1110714!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60220c01198068f3%3A0xe0937f4e0d78477!2z562R5rOi5aSn5a2m56ys77yS44Ko44Oq44Ki5aSn6aOf5aCC!5e0!3m2!1sja!2sjp!4v1552468691033"
-                  width="600"
-                  height="450"
-                  frameborder="0"
-                  style="border:0"
-                  allowfullscreen
-                ></iframe>
-              </div>
             </v-card>
           </v-container>
         </v-card>
