@@ -1,6 +1,5 @@
 <template>
   <div>
-    <v-card flat>
       <v-container>
         <v-card>
           <v-card-title primary-title>
@@ -9,11 +8,9 @@
             </div>
           </v-card-title>
           <v-card-text>
-            <v-container>
-              <p>情報科学類では毎年、オリエンテーション期間中に一泊二日で茨城県立中央青年の家で合宿を行っています。
-                <br>そこでは、レクリエーションを行ったり、夜バーベキューを行ったりして新入生同士の親睦を深めることを目的としています。
-              </p>
-              <v-card>
+            <p>情報科学類では毎年、オリエンテーション期間中に一泊二日で茨城県立中央青年の家で合宿を行っています。</p>
+            <p>そこでは、レクリエーションを行ったり、夜バーベキューを行ったりして新入生同士の親睦を深めることを目的としています。</p>
+              <v-card class="mb-4">
                 <v-card-title primary-title>
                   <div>
                     <h3 class="headline mb-0">日程</h3>
@@ -28,9 +25,8 @@
                   </v-data-table>
                 </v-card-text>
               </v-card>
-            </v-container>
-            <v-container>
-              <v-card>
+
+              <v-card class="mb-4">
                 <v-card-title primary-title>
                   <div>
                     <h3 class="headline mb-0">必要なもの</h3>
@@ -43,7 +39,7 @@
                       <li>財布</li>
                       <li>持っている方はスマートフォン(履修登録の際に使用します)</li>
                       <li>履修要覧(履修登録の際に使用します)</li>
-                      <li>開設科目授業科目一覧(履修登録の際に使用します)</li>
+                      <li>開設授業科目一覧(履修登録の際に使用します)</li>
                       <li>寝間着</li>
                       <li>洗面用具</li>
                       <li>汚れても良い服(BBQ時、臭いが付きます)</li>
@@ -78,9 +74,7 @@
                   </div>
                 </v-card-text>
               </v-card>
-            </v-container>
-            <v-container>
-              <v-card>
+              <v-card class="mb-4">
                 <v-card-title primary-title>
                   <div>
                     <h3 class="headline mb-0">注意事項</h3>
@@ -96,107 +90,89 @@
                     <li>時間厳守で行動してください。</li>
                     <li>BBQの臭いが付いたいりすすで汚れてしまったりすることが考えられるので、汚れても大丈夫な服を用意することを検討してください。</li>
                     <li>困ったことがあったら新歓委員に伝えてください。</li>
+                    <li>ドライヤーやヘアアイロンを使う際は実行委員に一言かけてください。ブレーカーが落ちてしまうため、使って良い場所が決まっています。</li>
                   </ul>
                 </v-card-text>
               </v-card>
-            </v-container>
           </v-card-text>
         </v-card>
       </v-container>
 
-      <!-- 
-      <v-container>
-        <v-card>
-          <v-card-title primary-title>
-            <div>
-              <h3 class="headline mb-0"></h3>
-            </div>
-          </v-card-title>
-          <v-card-text></v-card-text>
-        </v-card>
-      </v-container>
-      <v-container>
-        <v-card>
-          <v-card-title primary-title>
-            <div>
-              <h3 class="headline mb-0">日程</h3>
-            </div>
-          </v-card-title>
-          <v-card-text></v-card-text>
-        </v-card>
-      </v-container>-->
-    </v-card>
   </div>
 </template>
 
 <script>
 export default {
-  data() {
+  data () {
     return {
-      headers: [
-        {
-          text: "",
-          align: "left",
-          sortable: false,
-          value: "name"
-        },
-        { text: "" }
+      headers: [{
+        text: '時間',
+        align: 'left',
+        sortable: false,
+        value: 'name'
+      },
+      {
+        text: '詳細',
+        align: 'left',
+        sortable: false,
+        value: 'name'
+      }
       ],
-      desserts: [
-        {
-          name: "4/9(Tue)15:30~",
-          details: "大学からバスに乗って移動"
-        },
-        {
-          name: "16:00~",
-          details: "到着　入所式"
-        },
-        {
-          name: "~17:30",
-          details: "履修登録の説明"
-        },
-        {
-          name: "17:30~",
-          details: "BBQ"
-        },
-        {
-          name: "20:00~21:00",
-          details: "入浴"
-        },
-        {
-          name: "22:00",
-          details: "消灯"
-        },
-        {
-          name: "4/10(Wed)7:00",
-          details: "起床"
-        },
-        {
-          name: "7:30~",
-          details: "朝食"
-        },
-        {
-          name: "8:30~10:00",
-          details: "レクリエーション"
-        },
-        {
-          name: "10:30~11:30",
-          details: "クラ代決め等"
-        },
-        {
-          name: "11:30",
-          details: "退所"
-        },
-        {
-          name: "12:00",
-          details: "大学到着"
-        }
+      desserts: [{
+        name: '4/9(Tue)15:30~',
+        details: '大学からバスに乗って移動'
+      },
+      {
+        name: '16:00~',
+        details: '到着　入所式'
+      },
+      {
+        name: '~17:30',
+        details: '履修登録の説明'
+      },
+      {
+        name: '17:30~',
+        details: 'BBQ'
+      },
+      {
+        name: '20:00~21:00',
+        details: '入浴'
+      },
+      {
+        name: '22:00',
+        details: '消灯'
+      },
+      {
+        name: '4/10(Wed)7:00',
+        details: '起床'
+      },
+      {
+        name: '7:30~',
+        details: '朝食'
+      },
+      {
+        name: '8:30~10:00',
+        details: 'レクリエーション'
+      },
+      {
+        name: '10:30~11:30',
+        details: 'クラ代決め等'
+      },
+      {
+        name: '11:30',
+        details: '退所'
+      },
+      {
+        name: '12:00',
+        details: '大学到着'
+      }
       ]
-    };
+    }
   },
   computed: {},
   methods: {}
-};
+}
+
 </script>
 <style>
 </style>
