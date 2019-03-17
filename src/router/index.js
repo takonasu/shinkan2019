@@ -2,7 +2,6 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import top from '@/components/top'
 import gashuku from '@/components/gashuku'
-import seigo from '@/components/seigo'
 import other from '@/components/other'
 import gohan from '@/components/gohan'
 import Eng_test from '@/components/Eng_test'
@@ -32,11 +31,6 @@ export default new Router({
       path: '/meal',
       name: 'gohan',
       component: gohan
-    },
-    {
-      path: '/seigo',
-      name: 'seigo',
-      component: seigo
     },
     {
       path: '/test',

@@ -1,6 +1,10 @@
 <template>
   <div>
-
+    <v-alert v-model="alert" type="warning" dismissible class="mt-0">
+      coins新歓委員は青い法被を着ています。
+      法被を着ていない人は新歓委員ではありません。
+      不審な人が現れたらすぐにLINE@等で連絡してください。
+    </v-alert>
     <v-layout row wrap>
       <v-flex xs12 md6 v-for="n in page_lists" v-bind:key="n.id">
         <v-container>

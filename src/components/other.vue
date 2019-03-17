@@ -10,10 +10,6 @@
           </div>
         </v-container>
 
-
-
-
-
         <v-layout row wrap>
           <v-flex xs12 md6 v-for="n in card_lists" v-bind:key="n.id">
             <v-container>
@@ -50,7 +46,7 @@
         card_lists: [{
             id: 1,
             title: "oshun(@uk_osy)",
-            subtitle : "新歓委員長　合宿ページ担当",
+            subtitle: "新歓委員長　合宿ページ担当",
             text: "新歓委員長です！",
             link: "https://twitter.com/uk_osy",
             img: "https://pbs.twimg.com/profile_images/1041278929854558210/VMcuApjK_400x400.jpg"
@@ -58,7 +54,7 @@
           {
             id: 2,
             title: "たこなす(@ITF_tako)",
-            subtitle : "副新歓委員長 広報班長 入学式ページ・WEB構成担当",
+            subtitle: "副新歓委員長 広報班長 入学式ページ・WEB構成担当",
             text: "もう入学してから1年経つのか。。。",
             link: "https://twitter.com/ITF_tako",
             img: "https://pbs.twimg.com/profile_images/1079755767119409153/aTlUrEPU_400x400.jpg"
@@ -67,7 +63,7 @@
           {
             id: 3,
             title: "szk18(@ITF_szk)",
-            subtitle : "履修班長 ほぼ全ページ・アイコン担当",
+            subtitle: "履修班長 ほぼ全ページ・アイコン担当",
             text: "ねこはかわいい",
             link: "https://twitter.com/ITF_szk",
             img: "/static/szk.jpg"
