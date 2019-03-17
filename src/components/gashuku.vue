@@ -90,6 +90,7 @@
                     <li>時間厳守で行動してください。</li>
                     <li>BBQの臭いが付いたいりすすで汚れてしまったりすることが考えられるので、汚れても大丈夫な服を用意することを検討してください。</li>
                     <li>困ったことがあったら新歓委員に伝えてください。</li>
+                    <li>ドライヤーやヘアアイロンを使う際は実行委員に一言かけてください。ブレーカーが落ちてしまうため、使って良い場所が決まっています。</li>
                   </ul>
                 </v-card-text>
               </v-card>
@@ -105,13 +106,16 @@ export default {
   data () {
     return {
       headers: [{
-        text: '',
+        text: '時間',
         align: 'left',
         sortable: false,
         value: 'name'
       },
       {
-        text: ''
+        text: '詳細',
+        align: 'left',
+        sortable: false,
+        value: 'name'
       }
       ],
       desserts: [{
