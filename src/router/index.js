@@ -4,14 +4,12 @@ import top from '@/components/top'
 import gashuku from '@/components/gashuku'
 import other from '@/components/other'
 import gohan from '@/components/gohan'
-import Eng_test from '@/components/Eng_test'
+import test from '@/components/test'
 import enter from '@/components/enter'
 import gakugun from '@/components/gakugun'
 import gakurui from '@/components/gakurui'
 import risyu from '@/components/risyu'
 import shukusya from '@/components/shukusya'
-
-
 
 Vue.use(Router)
 
@@ -34,8 +32,8 @@ export default new Router({
     },
     {
       path: '/test',
-      name: 'Eng_test',
-      component: Eng_test
+      name: 'test',
+      component: test
     },
     {
       path: '/entrance',
@@ -68,7 +66,7 @@ export default new Router({
       component: other
     }
   ],
-  scrollBehavior(to, from, savedPosition) {
+  scrollBehavior (to, from, savedPosition) {
     return { x: 0, y: 0 }
   }
 })

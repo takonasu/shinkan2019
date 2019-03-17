@@ -59,7 +59,6 @@
                 width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
 
-
             こちらは開催場所になります。
               <br>集合場所は以下を参照してください。
               <!-- 集合場所より近い場合は直接来てもらって構いません。 -->
@@ -93,7 +92,6 @@
                   width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
               </div>
 
-
               <h3>集合場所③</h3>
               <div>つくば駅改札前</div>
               <div>〒305-0031 茨城県つくば市吾妻２丁目６−１２８</div>
@@ -110,13 +108,13 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        card_text: "Lorem ipsum dolor sit amet, brute iriure accusata ne mea. Eos suavitate referrentur ad, te duo agam libris qualisque, utroque quaestio accommodare no qui. Et percipit laboramus usu, no invidunt verterem nominati mel. Dolorem ancillae an mei, ut putant invenire splendide mel, ea nec propriae adipisci. Ignota salutandi accusamus in sed, et per malis fuisset, qui id ludus appareat."
-      };
+export default {
+  data () {
+    return {
+      card_text: 'Lorem ipsum dolor sit amet, brute iriure accusata ne mea. Eos suavitate referrentur ad, te duo agam libris qualisque, utroque quaestio accommodare no qui. Et percipit laboramus usu, no invidunt verterem nominati mel. Dolorem ancillae an mei, ut putant invenire splendide mel, ea nec propriae adipisci. Ignota salutandi accusamus in sed, et per malis fuisset, qui id ludus appareat.'
     }
-  };
+  }
+}
 
 </script>
 

@@ -97,78 +97,77 @@
         </v-card>
       </v-container>
 
-
   </div>
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        headers: [{
-            text: "",
-            align: "left",
-            sortable: false,
-            value: "name"
-          },
-          {
-            text: ""
-          }
-        ],
-        desserts: [{
-            name: "4/9(Tue)15:30~",
-            details: "大学からバスに乗って移動"
-          },
-          {
-            name: "16:00~",
-            details: "到着　入所式"
-          },
-          {
-            name: "~17:30",
-            details: "履修登録の説明"
-          },
-          {
-            name: "17:30~",
-            details: "BBQ"
-          },
-          {
-            name: "20:00~21:00",
-            details: "入浴"
-          },
-          {
-            name: "22:00",
-            details: "消灯"
-          },
-          {
-            name: "4/10(Wed)7:00",
-            details: "起床"
-          },
-          {
-            name: "7:30~",
-            details: "朝食"
-          },
-          {
-            name: "8:30~10:00",
-            details: "レクリエーション"
-          },
-          {
-            name: "10:30~11:30",
-            details: "クラ代決め等"
-          },
-          {
-            name: "11:30",
-            details: "退所"
-          },
-          {
-            name: "12:00",
-            details: "大学到着"
-          }
-        ]
-      };
-    },
-    computed: {},
-    methods: {}
-  };
+export default {
+  data () {
+    return {
+      headers: [{
+        text: '',
+        align: 'left',
+        sortable: false,
+        value: 'name'
+      },
+      {
+        text: ''
+      }
+      ],
+      desserts: [{
+        name: '4/9(Tue)15:30~',
+        details: '大学からバスに乗って移動'
+      },
+      {
+        name: '16:00~',
+        details: '到着　入所式'
+      },
+      {
+        name: '~17:30',
+        details: '履修登録の説明'
+      },
+      {
+        name: '17:30~',
+        details: 'BBQ'
+      },
+      {
+        name: '20:00~21:00',
+        details: '入浴'
+      },
+      {
+        name: '22:00',
+        details: '消灯'
+      },
+      {
+        name: '4/10(Wed)7:00',
+        details: '起床'
+      },
+      {
+        name: '7:30~',
+        details: '朝食'
+      },
+      {
+        name: '8:30~10:00',
+        details: 'レクリエーション'
+      },
+      {
+        name: '10:30~11:30',
+        details: 'クラ代決め等'
+      },
+      {
+        name: '11:30',
+        details: '退所'
+      },
+      {
+        name: '12:00',
+        details: '大学到着'
+      }
+      ]
+    }
+  },
+  computed: {},
+  methods: {}
+}
 
 </script>
 <style>
