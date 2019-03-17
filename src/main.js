@@ -5,6 +5,11 @@ import App from './App'
 import router from './router'
 import Vuetify from 'vuetify'
 import "vuetify/dist/vuetify.min.css";
+import 'material-design-icons-iconfont/dist/material-design-icons.css' 
+require('@fortawesome/fontawesome')
+require('@fortawesome/fontawesome-free-solid')
+require('@fortawesome/fontawesome-free-regular')
+require('@fortawesome/fontawesome-free-brands')
 
 Vue.use(Vuetify)
 

@@ -5,6 +5,13 @@ import gashuku from '@/components/gashuku'
 import seigo from '@/components/seigo'
 import other from '@/components/other'
 import gohan from '@/components/gohan'
+import Eng_test from '@/components/Eng_test'
+import enter from '@/components/enter'
+import gakugun from '@/components/gakugun'
+import gakurui from '@/components/gakurui'
+import risyu from '@/components/risyu'
+import shukusya from '@/components/shukusya'
+
 
 
 Vue.use(Router)
@@ -17,12 +24,12 @@ export default new Router({
       component: top
     },
     {
-      path: '/gashuku',
+      path: '/camp',
       name: 'gashuku',
       component: gashuku
     },
     {
-      path: '/gohan',
+      path: '/meal',
       name: 'gohan',
       component: gohan
     },
@@ -32,9 +39,42 @@ export default new Router({
       component: seigo
     },
     {
-      path: '/other',
+      path: '/test',
+      name: 'Eng_test',
+      component: Eng_test
+    },
+    {
+      path: '/entrance',
+      name: 'enter',
+      component: enter
+    },
+    {
+      path: '/faculty',
+      name: 'gakugun',
+      component: gakugun
+    },
+    {
+      path: '/lodging',
+      name: 'shukusya',
+      component: shukusya
+    },
+    {
+      path: '/department',
+      name: 'gakurui',
+      component: gakurui
+    },
+    {
+      path: '/registration',
+      name: 'risyu',
+      component: risyu
+    },
+    {
+      path: '/author',
       name: 'other',
       component: other
     }
-  ]
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    return { x: 0, y: 0 }
+  }
 })
