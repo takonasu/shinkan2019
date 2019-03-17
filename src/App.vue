@@ -22,13 +22,13 @@
 
       </v-navigation-drawer>
 
-      <v-parallax height="300" dark src="/static/gakuhi.jpg" class="mt-4 pt-4">
-        <v-layout align-center column justify-center>
-          <h1 class="display-2 font-weight-thin mb-3">coins新歓2019</h1>
-          <h4 class="subheading"></h4>
+
+      <v-img src="/static/ishi.jpg" height="30vh" class="mt-5">
+        <v-layout align-center justify-center row fill-height>
+          <h1 class="display-2 font-weight-thin white--text">coins新歓2019</h1>
         </v-layout>
-      </v-parallax>
-      <div style="margin-bottom:100px;">
+      </v-img>
+      <div class="mb-4">
 
         <router-view />
 

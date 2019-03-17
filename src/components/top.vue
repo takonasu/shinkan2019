@@ -35,7 +35,7 @@
             title: "宿舎入居",
             text: "宿舎に入る人はみてね！",
             link: "lodging",
-            img: "hyakkou.jpg"
+            img: "hirakyo.jpg"
           },
           {
             id: 2,
@@ -66,7 +66,7 @@
             title: "新歓合宿",
             text: "合宿に行きます",
             link: "camp",
-            img: "2gaku.jpg"
+            img: "BQ.jpg"
 
           },
           {
@@ -82,7 +82,7 @@
             title: "情報科学類懇親会",
             text: "情報科学類で懇親会するよ！",
             link: "department",
-            img: "hyakkou.jpg"
+            img: "coinskonshin.jpg"
 
           },
           {
@@ -90,7 +90,7 @@
             title: "情報学群懇親会",
             text: "情報学群で懇親会するよ！",
             link: "faculty",
-            img: "hyakkou.jpg"
+            img: "gurobi.jpg"
 
           },
 
