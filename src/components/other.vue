@@ -62,7 +62,7 @@ export default {
       {
         id: 3,
         title: 'szk18(@ITF_szk)',
-        subtitle: '履修班長 ほぼ全ページ・アイコン担当',
+        subtitle: '履修班 ほぼ全ページ・アイコン担当',
         text: 'ねこはかわいい',
         link: 'https://twitter.com/ITF_szk',
         img: '/static/szk.jpg'
