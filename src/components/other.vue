@@ -25,55 +25,51 @@
                     <v-icon>fab fa-twitter</v-icon>
                   </v-btn>
                 </v-card-text>
-
               </v-card>
             </v-container>
-
           </v-flex>
         </v-layout>
-
       </v-card>
     </v-container>
-
   </div>
 </template>
 
 <script>
 export default {
-  data () {
+  data() {
     return {
-      card_lists: [{
-        id: 1,
-        title: 'oshun(@uk_osy)',
-        subtitle: '新歓委員長　合宿ページ担当',
-        text: '全部の新歓行事にいますので、とりあえず僕だけ覚えておけば問題ないです。',
-        link: 'https://twitter.com/uk_osy',
-        img: 'https://pbs.twimg.com/profile_images/1041278929854558210/VMcuApjK_400x400.jpg'
-      },
-      {
-        id: 2,
-        title: 'たこなす(@ITF_tako)',
-        subtitle: '副新歓委員長 広報班長 入学式ページ・WEB構成担当',
-        text: 'もう入学してから1年経つのか。。。',
-        link: 'https://twitter.com/ITF_tako',
-        img: 'https://pbs.twimg.com/profile_images/1079755767119409153/aTlUrEPU_400x400.jpg'
-
-      },
-      {
-        id: 3,
-        title: 'szk18(@ITF_szk)',
-        subtitle: '履修班 ほぼ全ページ・アイコン担当',
-        text: 'ねこはかわいい',
-        link: 'https://twitter.com/ITF_szk',
-        img: '/static/szk.jpg'
-
-      }
-
+      card_lists: [
+        {
+          id: 1,
+          title: "oshun(@uk_osy)",
+          subtitle: "新歓委員長　合宿ページ担当",
+          text:
+            "全部の新歓行事にいますので、とりあえず僕だけ覚えておけば問題ないです。",
+          link: "https://twitter.com/uk_osy",
+          img:
+            "https://pbs.twimg.com/profile_images/1041278929854558210/VMcuApjK_400x400.jpg"
+        },
+        {
+          id: 2,
+          title: "たこなす(@ITF_tako)",
+          subtitle: "副新歓委員長 広報班長 入学式ページ・WEB構成担当",
+          text: "もう入学してから1年経つのか。。。",
+          link: "https://twitter.com/ITF_tako",
+          img:
+            "https://pbs.twimg.com/profile_images/1079755767119409153/aTlUrEPU_400x400.jpg"
+        },
+        {
+          id: 3,
+          title: "szk18(@ITF_szk)",
+          subtitle: "履修班 ほぼ全ページ・アイコン担当",
+          text: "ねこはかわいい",
+          link: "https://twitter.com/ITF_szk",
+          img: "/static/szk.jpg"
+        }
       ]
-    }
+    };
   }
-}
-
+};
 </script>
 
 <style>
