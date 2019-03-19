@@ -46,7 +46,7 @@ export default {
         id: 1,
         title: 'oshun(@uk_osy)',
         subtitle: '新歓委員長　合宿ページ担当',
-        text: '新歓委員長です！',
+        text: '全部の新歓行事にいますので、とりあえず僕だけ覚えておけば問題ないです。',
         link: 'https://twitter.com/uk_osy',
         img: 'https://pbs.twimg.com/profile_images/1041278929854558210/VMcuApjK_400x400.jpg'
       },
