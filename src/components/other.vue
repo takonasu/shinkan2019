@@ -31,7 +31,14 @@
 
           </v-flex>
         </v-layout>
-
+        <v-container>
+          <h1>cookieの使用</h1>
+          <div>
+            本サイトは利用者の計測のためにGoogle Analyticsを利用しています。
+            本サイトをご利用する場合、GoogleにアクセスしたページのURLやIPアドレスなどの情報を送信します。
+            データ収集のためにGoogleはcookieを設定したり既存のcookieを読み取ったりする場合があります。
+          </div>
+        </v-container>
       </v-card>
     </v-container>
 

@@ -29,8 +29,9 @@
       </v-img>
       <div class="mb-4">
 
+<transition name="fade">
         <router-view />
-
+</transition>
       </div>
       <v-footer dark height="auto">
         <v-card class="flex" flat tile>
@@ -114,7 +115,7 @@ export default {
     },
     {
       id: 9,
-      title: 'ページ製作者',
+      title: 'このサイトについて',
       link: 'author',
       icon: 'fas fa-feather'
     }
@@ -129,6 +130,12 @@ export default {
 
 </script>
 
-<style>
-
+<style scoped>
+.fade-enter-active, .fade-leave-active {
+  will-change: opacity;
+  transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0
+}
 </style>
