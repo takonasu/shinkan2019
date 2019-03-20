@@ -54,7 +54,7 @@ export default {
         id: 2,
         title: 'たこなす(@ITF_tako)',
         subtitle: '副新歓委員長 広報班長 入学式ページ・WEB構成担当',
-        text: 'もう入学してから1年経つのか。。。',
+        text: 'しっかりとWEBページ作ってしまった。oshunと一緒に全部の新歓行事にいるので、僕も覚えておけば問題ないです。',
         link: 'https://twitter.com/ITF_tako',
         img: 'https://pbs.twimg.com/profile_images/1079755767119409153/aTlUrEPU_400x400.jpg'
 

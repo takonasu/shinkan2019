@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-alert v-model="alert" type="warning" dismissible class="mt-0">
+    <v-alert v-cloak v-model="alert" type="warning" dismissible class="mt-0">
       coins新歓委員は青い法被を着ています。
       法被を着ていない人は新歓委員ではありません。
       不審な人が現れたらすぐにLINE@等で連絡してください。
@@ -29,6 +29,12 @@
     </v-layout>
   </div>
 </template>
+
+<style>
+[v-cloak] {
+  display: none;
+}
+</style>
 
 <script>
 export default {
