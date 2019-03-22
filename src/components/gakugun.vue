@@ -22,7 +22,7 @@
               </div>
             </v-card-title>
             <v-card-text>
-              <h3>4月20日(土) 17時00分開始</h3>
+              <h3>4月21日(日) 17時00分開始</h3>
             </v-card-text>
           </v-card>
           <v-card class="mb-4">
