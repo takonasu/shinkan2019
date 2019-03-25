@@ -23,9 +23,7 @@
               </div>
             </v-card-title>
             <v-card-text>
-              <h3>4月6日</h3>
-              <br>
-              <p>開始時刻はLINE@でお知らせいたします。</p>
+              <h3>4月6日 17:00に各集合場所に集合</h3>
             </v-card-text>
           </v-card>
           <v-card class="mb-4">
