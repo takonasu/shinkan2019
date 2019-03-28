@@ -20,7 +20,7 @@
               </div>
             </v-card-title>
             <v-card-text>
-              <h3>事業計画書</h3>
+              <a href="../static/情報学群情報科学類新入生歓迎会_事業計画書_修正版_2.pdf">事業計画書</a>
             </v-card-text>
           </v-card>
           <v-card class="mb-4">
@@ -30,7 +30,7 @@
               </div>
             </v-card-title>
             <v-card-text>
-              <h3>予算書</h3>
+              <a href="../static/情報学群情報科学類新入生歓迎会予算書_修正版_1.pdf">予算書</a>
             </v-card-text>
           </v-card>
         </v-container>
@@ -41,13 +41,13 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       card_text:
-        "Lorem ipsum dolor sit amet, brute iriure accusata ne mea. Eos suavitate referrentur ad, te duo agam libris qualisque, utroque quaestio accommodare no qui. Et percipit laboramus usu, no invidunt verterem nominati mel. Dolorem ancillae an mei, ut putant invenire splendide mel, ea nec propriae adipisci. Ignota salutandi accusamus in sed, et per malis fuisset, qui id ludus appareat."
-    };
+        'Lorem ipsum dolor sit amet, brute iriure accusata ne mea. Eos suavitate referrentur ad, te duo agam libris qualisque, utroque quaestio accommodare no qui. Et percipit laboramus usu, no invidunt verterem nominati mel. Dolorem ancillae an mei, ut putant invenire splendide mel, ea nec propriae adipisci. Ignota salutandi accusamus in sed, et per malis fuisset, qui id ludus appareat.'
+    }
   }
-};
+}
 </script>
 
 <style>
