@@ -101,7 +101,7 @@ export default {
         },
         {
           id: 10,
-          title: "編集者",
+          title: "このサイトについて",
           text: "このサイトを作ったのは俺たちだぜ！",
           link: "author",
           img: "naoi.jpg"
