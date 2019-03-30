@@ -65,7 +65,39 @@ export default {
           question:
             "プレイスメントテストのTOEFLはiBTですか？それともITPですか？",
           answer: "ITPです！"
+        },
+        {
+          id: 6,
+          question:
+            "授業はいつ始まりますか？また、その後のスケジュールが知りたいです！",
+          answer:
+            "授業が始まるのは11日です！時間割は自分で決めるので人によります！"
         }
+        // {
+        //   id: ,
+        //   question: "",
+        //   answer: ""
+        // },
+        // {
+        //   id: ,
+        //   question: "",
+        //   answer: ""
+        // },
+        // {
+        //   id: ,
+        //   question: "",
+        //   answer: ""
+        // },
+        // {
+        //   id: ,
+        //   question: "",
+        //   answer: ""
+        // },
+        // {
+        //   id: ,
+        //   question: "",
+        //   answer: ""
+        // }
       ],
       alert: true
     };
