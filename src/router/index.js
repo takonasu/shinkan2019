@@ -77,7 +77,7 @@ export default new Router({
     component: question
   }
   ],
-  scrollBehavior(to, from, savedPosition) {
+  scrollBehavior (to, from, savedPosition) {
     return {
       x: 0,
       y: 0

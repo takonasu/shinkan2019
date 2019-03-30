@@ -52,83 +52,83 @@
 
 <script>
 export default {
-  name: "App",
+  name: 'App',
   data: () => ({
     page_lists: [
       {
         id: 0,
-        title: "トップページ",
-        link: "/",
-        icon: "dashboard"
+        title: 'トップページ',
+        link: '/',
+        icon: 'dashboard'
       },
       {
         id: 1,
-        title: "宿舎入居",
-        text: "宿舎に入る人はみてね！",
-        link: "lodging",
-        icon: "fas fa-home"
+        title: '宿舎入居',
+        text: '宿舎に入る人はみてね！',
+        link: 'lodging',
+        icon: 'fas fa-home'
       },
       {
         id: 2,
-        title: "入学前食事会",
-        text: "百香亭という中華飯店に行きます",
-        link: "meal",
-        icon: "fas fa-utensils"
+        title: '入学前食事会',
+        text: '百香亭という中華飯店に行きます',
+        link: 'meal',
+        icon: 'fas fa-utensils'
       },
       {
         id: 3,
-        title: "入学式",
-        text: "お待ちかねの入学式です！",
-        link: "entrance",
-        icon: "fas fa-user-graduate"
+        title: '入学式',
+        text: 'お待ちかねの入学式です！',
+        link: 'entrance',
+        icon: 'fas fa-user-graduate'
       },
       {
         id: 4,
-        title: "プレイスメントテスト",
-        text: "は？なにこれ？",
-        link: "test",
-        icon: "fas fa-pencil-alt"
+        title: 'プレイスメントテスト',
+        text: 'は？なにこれ？',
+        link: 'test',
+        icon: 'fas fa-pencil-alt'
       },
       {
         id: 5,
-        title: "新歓合宿",
-        text: "合宿に行きます",
-        link: "camp",
-        icon: "fas fa-bed"
+        title: '新歓合宿',
+        text: '合宿に行きます',
+        link: 'camp',
+        icon: 'fas fa-bed'
       },
       {
         id: 6,
-        title: "履修相談会",
-        text: "履修って何？先輩と一緒に登録しよう！",
-        link: "registration",
-        icon: "fas fa-desktop"
+        title: '履修相談会',
+        text: '履修って何？先輩と一緒に登録しよう！',
+        link: 'registration',
+        icon: 'fas fa-desktop'
       },
       {
         id: 7,
-        title: "情報科学類懇親会",
-        text: "情報科学類で懇親会するよ！",
-        link: "department",
-        icon: "fas fa-handshake"
+        title: '情報科学類懇親会',
+        text: '情報科学類で懇親会するよ！',
+        link: 'department',
+        icon: 'fas fa-handshake'
       },
       {
         id: 8,
-        title: "情報学群懇親会",
-        text: "情報学群で懇親会するよ！",
-        link: "faculty",
-        icon: "fas fa-user-friends"
+        title: '情報学群懇親会',
+        text: '情報学群で懇親会するよ！',
+        link: 'faculty',
+        icon: 'fas fa-user-friends'
       },
       {
         id: 9,
-        title: "Q＆A",
-        text: "よく聞かれる質問と回答をまとめたよ！",
-        link: "question",
-        icon: "fas fa-question"
+        title: 'Q＆A',
+        text: 'よく聞かれる質問と回答をまとめたよ！',
+        link: 'question',
+        icon: 'fas fa-question'
       },
       {
         id: 10,
-        title: "このサイトについて",
-        link: "author",
-        icon: "fas fa-feather"
+        title: 'このサイトについて',
+        link: 'author',
+        icon: 'fas fa-feather'
       }
     ],
     drawer: false,
@@ -136,7 +136,7 @@ export default {
     right: false,
     left: false
   })
-};
+}
 </script>
 
 <style scoped>
