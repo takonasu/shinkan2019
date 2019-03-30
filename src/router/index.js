@@ -11,6 +11,7 @@ import gakurui from '@/components/gakurui'
 import risyu from '@/components/risyu'
 import shukusya from '@/components/shukusya'
 import document from '@/components/document'
+import question from '@/components/question'
 
 Vue.use(Router)
 
@@ -69,9 +70,14 @@ export default new Router({
     path: '/document',
     name: 'document',
     component: document
+  },
+  {
+    path: '/question',
+    name: 'question',
+    component: question
   }
   ],
-  scrollBehavior (to, from, savedPosition) {
+  scrollBehavior(to, from, savedPosition) {
     return {
       x: 0,
       y: 0
