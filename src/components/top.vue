@@ -98,6 +98,13 @@ export default {
           text: "よく聞かれる質問と回答をまとめたよ！",
           link: "question",
           img: "gurobi.jpg"
+        },
+        {
+          id: 10,
+          title: "編集者",
+          text: "このサイトを作ったのは俺たちだぜ！",
+          link: "author",
+          img: "gurobi.jpg"
         }
       ],
       alert: true
