@@ -97,7 +97,7 @@ export default {
           title: "Q＆A",
           text: "よく聞かれる質問と回答をまとめたよ！",
           link: "question",
-          img: "gurobi.jpg"
+          img: "who.jpg"
         },
         {
           id: 10,
