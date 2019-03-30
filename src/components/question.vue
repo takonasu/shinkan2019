@@ -17,12 +17,10 @@
         <v-container>
           <v-card class="mb-4" v-for="n in question_lists" v-bind:key="n.id">
             <v-card-title primary-title>
-              <div>
-                <h3 class="headline mb-0">{{ n.question }}</h3>
-              </div>
+              <div class="headline mb-0 font-weight-medium">{{ n.question }}</div>
             </v-card-title>
             <v-card-text>
-              <h3>{{ n.answer }}</h3>
+              <div class="subheading">{{ n.answer }}</div>
             </v-card-text>
           </v-card>
         </v-container>
