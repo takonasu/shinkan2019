@@ -104,7 +104,7 @@ export default {
           title: "編集者",
           text: "このサイトを作ったのは俺たちだぜ！",
           link: "author",
-          img: "gurobi.jpg"
+          img: "naoi.jpg"
         }
       ],
       alert: true
