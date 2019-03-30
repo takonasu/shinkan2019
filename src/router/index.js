@@ -2,79 +2,79 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import top from '@/components/top'
 import gashuku from '@/components/gashuku'
-import seigo from '@/components/seigo'
 import other from '@/components/other'
 import gohan from '@/components/gohan'
-import Eng_test from '@/components/Eng_test'
+import test from '@/components/test'
 import enter from '@/components/enter'
 import gakugun from '@/components/gakugun'
 import gakurui from '@/components/gakurui'
 import risyu from '@/components/risyu'
 import shukusya from '@/components/shukusya'
-
-
+import document from '@/components/document'
 
 Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'top',
-      component: top
-    },
-    {
-      path: '/camp',
-      name: 'gashuku',
-      component: gashuku
-    },
-    {
-      path: '/meal',
-      name: 'gohan',
-      component: gohan
-    },
-    {
-      path: '/seigo',
-      name: 'seigo',
-      component: seigo
-    },
-    {
-      path: '/test',
-      name: 'Eng_test',
-      component: Eng_test
-    },
-    {
-      path: '/entrance',
-      name: 'enter',
-      component: enter
-    },
-    {
-      path: '/faculty',
-      name: 'gakugun',
-      component: gakugun
-    },
-    {
-      path: '/lodging',
-      name: 'shukusya',
-      component: shukusya
-    },
-    {
-      path: '/department',
-      name: 'gakurui',
-      component: gakurui
-    },
-    {
-      path: '/registration',
-      name: 'risyu',
-      component: risyu
-    },
-    {
-      path: '/author',
-      name: 'other',
-      component: other
-    }
+  routes: [{
+    path: '/',
+    name: 'top',
+    component: top
+  },
+  {
+    path: '/camp',
+    name: 'gashuku',
+    component: gashuku
+  },
+  {
+    path: '/meal',
+    name: 'gohan',
+    component: gohan
+  },
+  {
+    path: '/test',
+    name: 'test',
+    component: test
+  },
+  {
+    path: '/entrance',
+    name: 'enter',
+    component: enter
+  },
+  {
+    path: '/faculty',
+    name: 'gakugun',
+    component: gakugun
+  },
+  {
+    path: '/lodging',
+    name: 'shukusya',
+    component: shukusya
+  },
+  {
+    path: '/department',
+    name: 'gakurui',
+    component: gakurui
+  },
+  {
+    path: '/registration',
+    name: 'risyu',
+    component: risyu
+  },
+  {
+    path: '/author',
+    name: 'other',
+    component: other
+  },
+  {
+    path: '/document',
+    name: 'document',
+    component: document
+  }
   ],
-  scrollBehavior(to, from, savedPosition) {
-    return { x: 0, y: 0 }
+  scrollBehavior (to, from, savedPosition) {
+    return {
+      x: 0,
+      y: 0
+    }
   }
 })
