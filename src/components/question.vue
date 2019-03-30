@@ -15,15 +15,14 @@
         </v-card-text>
 
         <v-container>
-          <v-card class="mb-4">
+          <v-card class="mb-4" v-for="n in question_lists" v-bind:key="n.id">
             <v-card-title primary-title>
               <div>
-                <h3 class="headline mb-0">日時</h3>
+                <h3 class="headline mb-0">{{ n.question }}</h3>
               </div>
             </v-card-title>
             <v-card-text>
-              <h3>4月13日(土) 10:00~16:00</h3>
-              <h3>4月14日(日) 10:00~16:00</h3>
+              <h3>{{ n.answer }}</h3>
             </v-card-text>
           </v-card>
         </v-container>
@@ -46,8 +45,8 @@ export default {
         },
         {
           id: 2,
-          title: "大学でも紙のノートって常用しますか？",
-          text:
+          question: "大学でも紙のノートって常用しますか？",
+          answer:
             "それは人に依りますね！ノートを取らない人もいますし、紙のノートで取る人や電子ノート(タブレットなど)、パソコンで取る人など様々です！"
         }
       ],
