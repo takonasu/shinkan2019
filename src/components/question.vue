@@ -101,8 +101,7 @@ export default {
         //   question: "",
         //   answer: ""
         // }
-      ],
-      alert: true
+      ]
     };
   }
 };
