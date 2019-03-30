@@ -91,6 +91,20 @@ export default {
           text: '情報学群で懇親会するよ！',
           link: 'faculty',
           img: 'gurobi.jpg'
+        },
+        {
+          id: 9,
+          title: 'Q＆A',
+          text: 'よく聞かれる質問と回答をまとめたよ！',
+          link: 'question',
+          img: 'who.jpg'
+        },
+        {
+          id: 10,
+          title: 'このサイトについて',
+          text: 'このサイトを作ったのは俺たちだぜ！',
+          link: 'author',
+          img: 'naoi.jpg'
         }
       ],
       alert: true
