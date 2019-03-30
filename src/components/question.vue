@@ -4,13 +4,13 @@
           <v-card class="mb-4">
           <v-card-title primary-title>
             <div>
-              <h3 class="headline mb-0">履修相談会に行こう！</h3>
+              <h3 class="headline mb-0">Q＆Aだよ！！</h3>
             </div>
           </v-card-title>
           <v-card-text>
             <div>
-              初めての履修登録は戸惑うことが多いと思います。履修相談会に来て、先輩に教えてもらいながら履修登録をしましょう。
-              おすすめの講義を先輩から教えてもらうこともできますよ！
+              皆さんから寄せられた質問の中で特に多かったものについて答えていきます！
+              わからないことがあったらLINE@でどんどん質問しましょう！
             </div>
           </v-card-text>
 
