@@ -143,7 +143,7 @@ export default {
         details: '消灯'
       },
       {
-        name: '4/10(Wed)7:00',
+        name: '4/10(Wed)6:30',
         details: '起床'
       },
       {

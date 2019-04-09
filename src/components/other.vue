@@ -31,7 +31,14 @@
 
           </v-flex>
         </v-layout>
-
+        <v-container>
+          <h1>cookieの使用</h1>
+          <div>
+            本サイトは利用者の計測のためにGoogle Analyticsを利用しています。
+            本サイトをご利用する場合、GoogleにアクセスしたページのURLやIPアドレスなどの情報を送信します。
+            データ収集のためにGoogleはcookieを設定したり既存のcookieを読み取ったりする場合があります。
+          </div>
+        </v-container>
       </v-card>
     </v-container>
 
@@ -46,7 +53,7 @@ export default {
         id: 1,
         title: 'oshun(@uk_osy)',
         subtitle: '新歓委員長　合宿ページ担当',
-        text: '新歓委員長です！',
+        text: '全部の新歓行事にいますので、とりあえず僕だけ覚えておけば問題ないです。',
         link: 'https://twitter.com/uk_osy',
         img: 'https://pbs.twimg.com/profile_images/1041278929854558210/VMcuApjK_400x400.jpg'
       },
@@ -54,7 +61,7 @@ export default {
         id: 2,
         title: 'たこなす(@ITF_tako)',
         subtitle: '副新歓委員長 広報班長 入学式ページ・WEB構成担当',
-        text: 'もう入学してから1年経つのか。。。',
+        text: 'しっかりとWEBページ作ってしまった。oshunと一緒に全部の新歓行事にいるので、僕も覚えておけば問題ないです。',
         link: 'https://twitter.com/ITF_tako',
         img: 'https://pbs.twimg.com/profile_images/1079755767119409153/aTlUrEPU_400x400.jpg'
 
