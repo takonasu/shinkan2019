@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-alert v-cloak v-model="alert" type="warning" dismissible class="mt-0">
-      学群懇親会の日付が4/20(土)から4/21(日)に変更になりました。
+      学群懇親会の日付が4/20(土)から4/21(日)に、時間も変更になりました。
       新歓パンフに書いてある情報は古いので注意してください。
     </v-alert>
     <v-layout row wrap>

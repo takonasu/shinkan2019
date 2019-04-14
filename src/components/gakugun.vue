@@ -12,6 +12,8 @@
           <div>
             情報メディア創成学類や知識情報図書館学類の新入生と全体で関われる最初のチャンスです。
             同じ学群内での共通の趣味を持った人を探してみるのも良いでしょう！
+            <div class="font-weight-black font-italic">ただでご飯食べられるよ！！</div>
+
           </div>
         </v-card-text>
         <v-container>
@@ -22,7 +24,7 @@
               </div>
             </v-card-title>
             <v-card-text>
-              <h3>4月21日(日) 17時00分開始</h3>
+              <h3>4月21日(日) 17時30分開始</h3>
             </v-card-text>
           </v-card>
           <v-card class="mb-4">
@@ -66,7 +68,7 @@
             </v-card-title>
             <v-card-text>
               <div>集合場所には法被を着た新歓委員が待機しています。</div>
-              <div class="font-weight-bold">集合時間は16時30分です。</div>
+              <div class="font-weight-bold">集合時間は17時00分です。</div>
               <div>※直接グローバルビレッジに来ていただいても構いません。</div>
               <div>平砂学生宿舎 共用棟前</div>
               <div>〒305-0005 茨城県つくば市天久保２丁目１</div>
