@@ -10,6 +10,7 @@
         </v-card-title>
         <v-card-text>
           <div>
+            <div class="font-weight-black font-italic">参加不参加を<a href="https://forms.gle/1XBdozT4o1tzoSZm9">こちら</a>から全員回答してください！</div>
             情報メディア創成学類や知識情報図書館学類の新入生と全体で関われる最初のチャンスです。
             同じ学群内での共通の趣味を持った人を探してみるのも良いでしょう！
             <div class="font-weight-black font-italic">ただでご飯食べられるよ！！</div>

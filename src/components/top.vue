@@ -4,7 +4,10 @@
       学群懇親会の日付が4/20(土)から4/21(日)に、時間も変更になりました。
       新歓パンフに書いてある情報は古いので注意してください。
     </v-alert>
-    <v-layout row wrap>
+    <v-alert v-cloak v-model="alert" type="error" dismissible class="mt-0">
+      学群懇親会の参加不参加を<a href="https://forms.gle/1XBdozT4o1tzoSZm9">こちら</a>から全員回答してください！
+    </v-alert>
+   <v-layout row wrap>
       <v-flex xs12 md6 v-for="n in page_lists" v-bind:key="n.id">
         <v-container>
           <router-link v-bind:to="n.link" style="text-decoration: none;">
